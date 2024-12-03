@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrit Raj - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">Amrit Raj</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="theme-toggle" class="theme-toggle">🌙</button>
+            </ul>
+            <div class="controls">
+                
+                <div id="music-toggle" class="music-toggle">
+                    <div class="grooves"></div>
+                    <div class="inner-circle">
+                        <i class="fas fa-music"></i>
+                    </div>
+                </div>
+                
+        </nav>
+    </header>
+    
+    <!-- Background video -->
+    <div class="video-container">
+        <video autoplay muted loop playsinline>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    
+    <div id="song-info" class="song-info"></div>
+
+    <main>
+        <section id="home" class="section">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="subtitle">I'm Amrit Raj, a Computer Science final year student passionate about creating amazing web experiences.</p>
+            <div class="social-links">
+                <a href="https://github.com/AmritRaj187" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/amrit-raj-696377248/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Amrit Raj,a passionate final-year Computer Science student with a deep love for web development and technology. My journey in the world of computer science has been driven by curiosity and an eagerness to create innovative digital solutions.</p>
+            <p> I'm fascinated by web technologies and the endless possibilities they offer. My goal is to develop web applications that are not just functional, but also intuitive and user-friendly. I enjoy turning complex technical challenges into elegant, practical solutions.</p>
+            <p>As a Computer Science student, I've developed a strong foundation in programming, web development, and emerging technologies. My academic journey has equipped me with skills in various programming languages and a comprehensive understanding of software development principles.
+                I'm committed to continuous learning and growth. My aim is to leverage my skills to contribute meaningfully to the tech industry, creating solutions that make a positive impact on people's lives.
+            </p>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p>Bachelor of Computer Science, VIT-AP University
+                <p>
+                    Completed my schooling from KV No.1 AFS Agra.
+                </p>
+            </p>
+        </section>
+        
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">React.js</div>
+                <div class="skill-card">Android </div>
+                <div class="skill-card">NoSQL</div>
+                <div class="skill-card">MySQL</div>
+                
+            </div>
+        </section>
+
+        <section id="certificates" class="section">
+            <h2>Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <embed src="assets/certificates/global.pdf" type="application/pdf" width="100%" height="200px" />
+                    <p class="certificate-title">Java Development on Oracle Cloud</p>
+                </div>
+                <div class="certificate-card">
+                    <embed src="assets/certificates/i am neo.pdf" type="application/pdf" width="100%" height="200px" />
+                    <p class="certificate-title">Java Full Stack Course on IamNeo</p>
+                </div>
+                <div class="certificate-card">
+                    <embed src="assets/certificates/Big Data Computing.pdf" type="application/pdf" width="100%" height="200px" />
+                    <p class="certificate-title">NPTEL Big Data Computing</p>
+                </div>
+                <div class="certificate-card">
+                    <embed src="assets/certificates/d3d672d3-134f-403c-aa6c-0e9444578c5d.pdf" type="application/pdf" width="100%" height="200px" />
+                    <p class="certificate-title">National Finalist in AI Blueprint for Bharat</p>
+                </div>
+                <div class="certificate-card">
+                    <embed src="assets/certificates/Cyber Security and Privacy.pdf" type="application/pdf" width="100%" height="200px" />
+                    <p class="certificate-title">NPTEL Cyber Security and Privacy</p>
+                </div>
+                <div class="certificate-card">
+                    <embed src="assets/certificates/Amrit Raj.pdf" type="application/pdf" width="100%" height="200px" />
+                    <p class="certificate-title">IamNeo Certificate</p>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    
+                    <h3>Portfolio Website</h3>
+                    <p>This responsive website showcases my skills, projects, and contact information.</p>
+                    <a href="#" class="button">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Hydrofill Touchless Gesture Control Water Dispensing</h3>
+                    <p>Engineered a real-time gesture recognition algorithm, enhancing water dispensing accuracy by almost 30%, which elevated user satisfaction by 20% and streamlined operations by reducing manual adjustments by 15%. Deployed a data analytics dashboard that continuously monitored and analysed system usage patterns, resulting in a 25% increase in operational efficiency and generating actionable insights that contributed to a 20% improvement in future system upgrades.
+
+                        Technologies and tools Used: Arduino PIR sensor, Ultrasonic sensor, Servo motor</p>
+                    <a href="#" class="button">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Medical_App</h3>
+                    <p>I developed a comprehensive Medical Companion Android app using Java and Android Studio, designed to revolutionize personal healthcare management. The application offers seamless features including patient profile creation, secure medical record digitization, an intuitive appointment booking system, and a smart prescription management module. Users can easily track their health metrics, receive medication reminders, and store critical medical documents with advanced privacy controls. The app integrates Firebase for authentication and cloud storage, ensuring robust data security while providing a user-friendly interface that simplifies healthcare interactions. By addressing key challenges in medical record management, the app aims to enhance patient engagement and streamline healthcare communication, making medical information more accessible and organized for users.</p>
+                    <a href="https://github.com/AmritRaj187/Health-care-app" class="button">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Modern_Furniture</h3>
+                    <p>We developed an innovative Augmented Reality (AR) furniture application that transforms the online furniture buying and selling experience by allowing users to virtually place and visualize furniture in their real-world spaces. The app leverages advanced AR technology to enable customers to use their smartphone cameras to instantly preview how specific furniture pieces would look in their home or office environment, providing a realistic 3D rendering of items from different angles and in real-time scale. Sellers can easily upload furniture listings with detailed 3D models, while buyers can interact with these virtual models, move them around their actual living spaces, and make informed purchasing decisions without the traditional guesswork of online furniture shopping. The application includes features like precise measurement tools, color and texture customization, compatibility checks with existing room decor, and a seamless integration between AR visualization and e-commerce transaction capabilities, making it a groundbreaking solution in the digital furniture marketplace.</p>
+                    <a href="#" class="button">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>SLIET Mentorship Platform</h3>
+                    <p>This is a mentorship platform that allows users to connect with expert faculty mentors for personalized academic and career guidance. The key features include a home page that invites users to book a session, a mentor directory for searching by expertise or name, a session booking form, and an about section. The user interface is clean and modern, utilizing responsive design and interactive elements built with HTML, CSS, and JavaScript. Overall, it's a well-designed platform for facilitating mentorship connections between students/professionals and experienced faculty.</p>
+                    <a href="https://github.com/AmritRaj187/sliet_mentorship_platform" class="button">View on GitHub</a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+        
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to connect, feel free to reach out!</p>
+            <form class="contact-form" action="https://formspree.io/f/xpwzkown" method="POST">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="E-Mail" placeholder="Your Email" required>
+                <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amrit Raj. All rights reserved.</p>
+    </footer>
+    <button id="back-to-top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
